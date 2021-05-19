@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="subgame.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="gamestyle.css" />
-</head>
-
-<body>
-  <div class="container">
-    <h1 style="line-height: 11rem;">
-      I have number in my mind and its between 1-100..Guess That
-    </h1>
-    <div id="input-container">
-      <input type="number" placeholder=" Enter your number " name="number" id="number-input" min="1" max="100" />
-      <div class="button" id="submit">Submit</div>
+  <body>
+    <div class="container">
+      <div class="totdata">
+        <div class="rule">
+          Hey gamer, I have number in my mind and its between 1-100. Guess Now
+        </div>
+        <input
+          type="number"
+          placeholder=" Enter"
+          name="number"
+          id="number-input"
+          min="1"
+          max="100"
+          class="inpnum"
+        />
+        <div class="sub-button" id="submit">Submit</div>
+        <h2 id="lives-text" style="padding: 3rem">
+          Lives: <span id="lives">6</span>
+        </h2>
+        <div id="message"></div>
+      </div>
     </div>
-    <h2 id="lives-text" style="padding: 3rem;">
-      Lives: <span id="lives">10</span>
-    </h2>
-    <div id="message"></div>
-  </div>
 
-  <script src="./game.js"></script>
-</body>
-
+    <script src="./game.js"></script>
+  </body>
 </html>
