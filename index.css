@@ -1,6 +1,6 @@
 .container{
     background-color: #4816ff;
-    background-image: url(assets/indexbg.jpg);
+    background-image: url(assets/indbg.png);
     background-image: -webkit-linear-gradient();
     background-size: cover;
     display: flex;
@@ -21,15 +21,15 @@
     transform: translate(-50%, -50%);
 }
 .logo{
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        border: none;
-        font: normal 36px/1 Impact, Charcoal, sans-serif;
-        color: #696793;
-        text-align: center;
-        -o-text-overflow: ellipsis;
-        text-overflow: ellipsis;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 36px/1 Impact, Charcoal, sans-serif;
+    color: #14b50a;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
 }
 .button{
         margin-top: 10px;
