@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="loss.css">
 </head>
 
+
 <body>
     
         <div class="bg">
             <div class="lossdata">
                 <div class="greet">You Lost</div>
                 <div><input type="button" value="Want to Play Again" id="again" class="replay" /></div>
+                <div id="answer-disp"></div>
+                <script>
+                    var answer=localStorage.getItem("ans");
+                    document.getElementById("answer-disp").innerText="Answer is "+answer;
+                </script>
         <script src="playagain.js"></script>
         </div>
         </div>

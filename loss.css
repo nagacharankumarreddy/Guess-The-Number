@@ -65,3 +65,18 @@ background-size: cover;
     border-radius: 20px;
     text-decoration: none;
  }
+ #answer-disp{
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        border: none;
+        padding: 20px;
+        font: normal 26px/1 Impact, Charcoal, sans-serif;
+        color: #011d02;
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        text-shadow: 0 0 9px rgba(255,255,86,0.7) ;
+      }
+      
+ 

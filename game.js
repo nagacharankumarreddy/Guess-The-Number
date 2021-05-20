@@ -3,9 +3,19 @@ const $message = document.getElementById("message");
 const $lives = document.getElementById("lives");
 
 var guessnumber = Math.floor(Math.random() * 100);
-console.log(guessnumber);
+localStorage.setItem("ans",guessnumber)
 var lives = 5;
 var message;
+
+
+var input = document.getElementById("number-input");
+input.addEventListener("keyup", function(event) {
+    if (event.code === "Enter") {
+        event.preventDefault();
+        document.getElementById("submit").click();
+    }
+});
+
 
 $submitbutton.onclick = () => {
   var userip = document.getElementById("number-input").value;

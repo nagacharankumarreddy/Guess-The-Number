@@ -84,7 +84,7 @@ text-shadow: #290303 3px 5px 2px;
         box-sizing: content-box;
         border: none;
         font: normal normal bold 32px/1 "Aclonica", Helvetica, sans-serif;
-        color: #24790d;
+        color: #48703d;
         text-align: center;
         -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
@@ -102,32 +102,37 @@ text-shadow: #290303 3px 5px 2px;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
   }
-      
-
-
       /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-
-
+  .lives-font{
+    color: #45b426;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+  .lives-font{
+    color: #153f09;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .lives-font{
+    color: #1e072b;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .lives-font{
+    color: #74df57;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .lives-font{
+    color: #3b146e;
+  }
 }
