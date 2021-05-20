@@ -1,10 +1,13 @@
-body{
-    background-image: url("./assets/sad.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+background-image: url("./assets/sad.jpg");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .lossdata{
     text-align: center;
@@ -30,9 +33,9 @@ body{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    height:50px;
+    height: 50px;
     line-height: 10px;
-    color: #FFFFFF;
+    color: #ff0;
     font-family: Brush Script MT;
     width: 240px;
     font-size: 28px;

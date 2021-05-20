@@ -1,6 +1,6 @@
 .container{
     background-color: #4816ff;
-    background-image: url(assets/bg2.jpg);
+    background-image: url(assets/subgamebg.png);
     background-image: -webkit-linear-gradient();
     background-size: cover;
     display: flex;
@@ -32,7 +32,7 @@ font-style: normal;
 font-variant: normal;
 text-transform: none;
 color: #FFFFFF;
-background: rgba(0,0,0,0.2);
+
 text-shadow: #290303 3px 5px 2px;
 }
 .inpnum {
