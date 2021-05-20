@@ -22,8 +22,8 @@ $submitbutton.onclick = () => {
   lives--;
   if (userip == guessnumber) location.href = "./win.html";
   else if (lives == 0) location.href = "./lose.html";
-  else if (userip > guessnumber) message = "Your Guess is too high😢";
-  else if (userip < guessnumber) message = "Your Guess is too low😢";
+  else if (userip > guessnumber) message = "Your Guess is  high";
+  else if (userip < guessnumber) message = "Your Guess is  low";
 
   $message.style.display = "inhertit";
   //debugger
